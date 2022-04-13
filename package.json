@@ -1,17 +1,26 @@
 {
   "name": "bloggin-website",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "start":"nodemon server.js"
-
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express-fileupload": "^1.3.1",
-    "express.js": "^1.0.0",
+    "express.js": "^1.0.0"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eminentzeal/bloggin-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Eminentzeal/bloggin-website/issues"
+  },
+  "homepage": "https://github.com/Eminentzeal/bloggin-website#readme",
+  "description": ""
 }
